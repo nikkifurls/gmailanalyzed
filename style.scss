@@ -1,0 +1,27 @@
+$color-gmail-blue: #4285F4;
+$color-gmail-blue-dark: #2266D3;
+$color-gmail-red: #DB4437;
+$color-gmail-red-dark: #C5221F;
+$color-gmail-yellow: #F4B400;
+$color-gmail-green: #0F9D58;
+
+@use "../pwa-generator/files/common" as * with (
+	$font-heading: "Raleway",
+	$font-body: "Open Sans",
+	$color-main: $color-gmail-blue,
+	$color-main-dark: $color-gmail-blue-dark,
+	$color-accent: $color-gmail-yellow,
+	$color-accent-dark: $color-gmail-red
+);
+
+header {
+	hgroup {
+		h1 {
+			text-transform: uppercase;
+		}
+	}
+}
+
+.dashboard {
+	margin: $space-medium auto;
+}
