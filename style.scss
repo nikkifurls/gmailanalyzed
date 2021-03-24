@@ -5,7 +5,7 @@ $color-gmail-red-dark: #C5221F;
 $color-gmail-yellow: #F4B400;
 $color-gmail-green: #0F9D58;
 
-@use "../pwa-generator/files/common" as * with (
+@use "../pwagenerator/files/common" as * with (
 	$font-heading: "Raleway",
 	$font-body: "Open Sans",
 	$color-main: $color-gmail-blue,
