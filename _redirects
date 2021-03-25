@@ -1,4 +1,5 @@
 /disclaimer/* /disclaimer.html 200
 /privacy-policy/* /privacy-policy.html 200
 /terms-and-conditions/* /terms-and-conditions.html 200
+/api/* /.netlify/functions/:splat
 /* /index.html 200
