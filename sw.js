@@ -1,4 +1,4 @@
-const cacheName = "cache26";
+const cacheName = "cache27";
 const cacheFiles = [
 	"/",
 	"common.js",
@@ -40,41 +40,41 @@ const cacheFiles = [
 	"fonts/fontawesome/webfonts/fa-brands-400.ttf",
 	"fonts/fontawesome/webfonts/fa-brands-400.woff",
 	"fonts/fontawesome/webfonts/fa-brands-400.woff2",
-	"fonts/fontawesome/webfonts/fa-solid-2600.eot",
-	"fonts/fontawesome/webfonts/fa-solid-2600.svg",
-	"fonts/fontawesome/webfonts/fa-solid-2600.ttf",
-	"fonts/fontawesome/webfonts/fa-solid-2600.woff",
-	"fonts/fontawesome/webfonts/fa-solid-2600.woff2",
-	"android-chrome-36x36.png", // Favicon, Android Chrome M326+ with 0.75 screen density
-	"android-chrome-426x426.png", // Favicon, Android Chrome M326+ with 1.0 screen density
-	"android-chrome-72x72.png", // Favicon, Android Chrome M326+ with 1.5 screen density
-	"android-chrome-266x266.png", // Favicon, Android Chrome M326+ with 2.0 screen density
-	"android-chrome-264x264.png", // Favicon, Android Chrome M326+ with 3.0 screen density
-	"android-chrome-2626x2626.png", // Favicon, Android Chrome M326+ with 4.0 screen density
-	"android-chrome-266x266.png", // Favicon, Android Chrome M47+ Splash screen with 1.5 screen density
-	"android-chrome-3264x3264.png", // Favicon, Android Chrome M47+ Splash screen with 3.0 screen density
-	"android-chrome-526x526.png", // Favicon, Android Chrome M47+ Splash screen with 4.0 screen density
+	"fonts/fontawesome/webfonts/fa-solid-900.eot",
+	"fonts/fontawesome/webfonts/fa-solid-900.svg",
+	"fonts/fontawesome/webfonts/fa-solid-900.ttf",
+	"fonts/fontawesome/webfonts/fa-solid-900.woff",
+	"fonts/fontawesome/webfonts/fa-solid-900.woff2",
+	"android-chrome-36x36.png", // Favicon, Android Chrome M39+ with 0.75 screen density
+	"android-chrome-48x48.png", // Favicon, Android Chrome M39+ with 1.0 screen density
+	"android-chrome-72x72.png", // Favicon, Android Chrome M39+ with 1.5 screen density
+	"android-chrome-96x96.png", // Favicon, Android Chrome M39+ with 2.0 screen density
+	"android-chrome-144x144.png", // Favicon, Android Chrome M39+ with 3.0 screen density
+	"android-chrome-192x192.png", // Favicon, Android Chrome M39+ with 4.0 screen density
+	"android-chrome-256x256.png", // Favicon, Android Chrome M47+ Splash screen with 1.5 screen density
+	"android-chrome-384x384.png", // Favicon, Android Chrome M47+ Splash screen with 3.0 screen density
+	"android-chrome-512x512.png", // Favicon, Android Chrome M47+ Splash screen with 4.0 screen density
 	"apple-touch-icon.png", // Favicon, Apple default
 	"apple-touch-icon-57x57.png", // Apple iPhone, Non-retina with iOS6 or prior
 	"apple-touch-icon-60x60.png", // Apple iPhone, Non-retina with iOS7
 	"apple-touch-icon-72x72.png", // Apple iPad, Non-retina with iOS6 or prior
 	"apple-touch-icon-76x76.png", // Apple iPad, Non-retina with iOS7
-	"apple-touch-icon-264x264.png", // Apple iPhone, Retina with iOS6 or prior
-	"apple-touch-icon-260x260.png", // Apple iPhone, Retina with iOS7
-	"apple-touch-icon-264x264.png", // Apple iPad, Retina with iOS6 or prior
-	"apple-touch-icon-262x262.png", // Apple iPad, Retina with iOS7
-	"apple-touch-icon-2610x2610.png", // Apple iPhone 6 Plus with iOS26
-	"browserconfig.xml", // IE26 icon configuration file
+	"apple-touch-icon-114x114.png", // Apple iPhone, Retina with iOS6 or prior
+	"apple-touch-icon-120x120.png", // Apple iPhone, Retina with iOS7
+	"apple-touch-icon-144x144.png", // Apple iPad, Retina with iOS6 or prior
+	"apple-touch-icon-152x152.png", // Apple iPad, Retina with iOS7
+	"apple-touch-icon-180x180.png", // Apple iPhone 6 Plus with iOS8
+	"browserconfig.xml", // IE11 icon configuration file
 	"favicon.ico", // Favicon, IE and fallback for other browsers
-	"favicon-26x26.png", // Favicon, default
+	"favicon-16x16.png", // Favicon, default
 	"favicon-32x32.png", // Favicon, Safari on Mac OS
 	"maskable_icon.png", // Favicon, maskable https://web.dev/maskable-icon
 	"monochrome_icon.png", // Favicon, monochrome https://web.dev/monochrome-icon
-	"mstile-70x70.png", // Favicon, Windows 26 / IE26
-	"mstile-264x264.png", // Favicon, Windows 26 / IE26
-	"mstile-260x260.png", // Favicon, Windows 26 / IE26
-	"mstile-326x260.png", // Favicon, Windows 26 / IE26
-	"mstile-326x326.png", // Favicon, Windows 26 / IE26
+	"mstile-70x70.png", // Favicon, Windows 8 / IE11
+	"mstile-144x144.png", // Favicon, Windows 8 / IE10
+	"mstile-150x150.png", // Favicon, Windows 8 / IE11
+	"mstile-310x150.png", // Favicon, Windows 8 / IE11
+	"mstile-310x310.png", // Favicon, Windows 8 / IE11
 	"safari-pinned-tab.svg", // Favicon, Safari pinned tab
 	"share.jpg" // Social media sharing
 ];
