@@ -1,7 +1,7 @@
 {
     "name": "Gmail Analyzed",
     "short_name": "Gmail Analyzed",
-    "description": "Simple analysis of top senders in Gmail",
+    "description": "Analyzes your inbox and provides a list of the email senders that are clogging it up",
     "display": "standalone",
     "start_url": "./",
     "scope": ".",
