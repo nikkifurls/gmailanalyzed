@@ -1,6 +1,6 @@
 {
 	"name": "dev.nicolefurlan.com",
-	"version": "1",
+	"version": "28",
 	"description": "Analyzes your inbox and provides a list of the email senders that are clogging it up",
 	"scripts": {
 		"build": "webpack --mode production"
