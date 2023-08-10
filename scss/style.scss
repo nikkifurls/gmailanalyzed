@@ -1,0 +1,28 @@
+@use 'layout';
+
+:root {
+	--font-heading: "Raleway";
+	--font-body: "Open Sans";
+	--color-main: var(--color-gmail-blue);
+	--color-main-dark: var(--color-gmail-blue-dark);
+	--color-accent: var(--color-gmail-yellow);
+	--color-accent-dark: var(--color-gmail-red);
+	--color-gmail-blue: #4285F4;
+	--color-gmail-blue-dark: #2266D3;
+	--color-gmail-red: #DB4437;
+	--color-gmail-red-dark: #C5221F;
+	--color-gmail-yellow: #F4B400;
+	--color-gmail-green: #0F9D58;
+}
+
+header {
+	hgroup {
+		h1 {
+			text-transform: uppercase;
+		}
+	}
+}
+
+.dashboard {
+	margin: var(--space-medium) auto;
+}
