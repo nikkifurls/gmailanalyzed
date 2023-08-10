@@ -1,0 +1,16 @@
+{
+	"name": "dev.nicolefurlan.com",
+	"version": "1",
+	"description": "Analyzes your inbox and provides a list of the email senders that are clogging it up",
+	"scripts": {
+		"build": "webpack --mode production"
+	},
+	"dependencies": {
+		"css-loader": "^6.8.1",
+		"sass": "^1.65.1",
+		"sass-loader": "^13.3.2",
+		"style-loader": "^3.3.3",
+		"ts-loader": "^9.4.4",
+		"webpack-cli": "^5.1.4"
+	}
+}
