@@ -293,6 +293,10 @@ section {
 			align-items: center;
 		}
 
+		&:has(.nav) {
+			grid-template-columns: minmax(250px, 25%) 1fr 1fr;
+		}
+
 		a {
 			padding: var(--space-xsmall);
 		}
@@ -315,8 +319,22 @@ section {
 			}
 		}
 
+		.nav {
+			align-items: center;
+			display: flex;
+			gap: 10px;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+
+			li {
+				margin: 0;
+			}
+		}
+
 		.social {
 			@extend .container-scrollable;
+			justify-content: center;
 			
 			@media (min-width: layout.$media-desktop) {
 				align-items: center;
@@ -652,7 +670,6 @@ img {
 */
 .notification {
 	background-color: var(--color-gray-med);
-	border-top: var(--space-border) solid var(--color-gray-light);
 	bottom: 0;
 	color: var(--color-white);
 	display: none;
@@ -660,7 +677,12 @@ img {
 	@include layout.padding-default(var(--space-small));
 	position: fixed;
 	right: 0;
+	width: 100%;
 	z-index: 999;
+
+	&[open] {
+		display: block;
+	}
 
 	&.notification-share {
 		p {
